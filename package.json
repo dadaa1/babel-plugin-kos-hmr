@@ -1,10 +1,14 @@
 {
   "name": "babel-plugin-kos-hmr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个kos热更新babel插件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dadaa1/babel-plugin-kos-hmr.git"
   },
   "keywords": [
     "kos",
