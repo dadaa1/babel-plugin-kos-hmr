@@ -38,7 +38,7 @@ module.exports = function({ types: t }) {
           path.insertAfter(
             t.importDeclaration([t.importDefaultSpecifier(t.identifier('KOS'))], t.stringLiteral('kos-core'))
           );
-          console.log('main.js插入成功');
+          // console.log('main.js插入成功');
           path.replaceWithSourceString(hmrStr);
           flag = false;
           return;
@@ -46,7 +46,7 @@ module.exports = function({ types: t }) {
         if (name === 'model' && value === './model') {
           // 引入了model，头部引入Kos，底部插入modehmrstr
           if (!map[file]) {
-            console.log(`${file}插入成功`);
+            // console.log(`${file}插入成功`);
             path.insertAfter(
               t.importDeclaration([t.importDefaultSpecifier(t.identifier('KOS'))], t.stringLiteral('kos-core'))
             );
