@@ -1,0 +1,17 @@
+{
+  "name": "babel-plugin-kos-hmr",
+  "version": "1.0.1",
+  "description": "一个kos热更新babel插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kos",
+    "babel",
+    "babel-plugin",
+    "hmr"
+  ],
+  "author": "",
+  "license": "MIT"
+}
